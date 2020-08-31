@@ -1,0 +1,56 @@
+.option-container {
+    display:flex;
+    margin-bottom: 8px;
+    width: 100%;
+    font-size: 12px;
+    border: 1.6px solid rgba(86,165,235,0.25);
+    background-color: white;
+
+  }
+
+.option-container:hover{ 
+    cursor:pointer;
+    box-shadow: 0 6.4px 0 rgba(86,165,235,0.5);
+    transform:translateY(-1.6px);
+    transition:transform 150ms;
+ }
+
+.option-prefix{ 
+      padding:1.5 rem 2.5 rem;
+      background-color:purple;
+      color:white;
+   }
+ 
+.option-text{
+       padding:19.5px;
+       width:100%;
+
+     }
+
+.correct{ 
+         background-color:green;
+
+    }
+
+
+.incorrect {  
+          background-color:red;
+      }
+
+#icon{
+    display: flex;
+    justify-content: space-around;
+
+
+  }
+
+.icon-prefix{ 
+    text-align: center;
+    justify-content:space-between;
+
+  }
+
+.icon-main-text{ 
+     text-align: center;
+     font-size: 2rem;
+    }
